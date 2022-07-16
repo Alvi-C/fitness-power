@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header section */
+.menu-container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+}
+
+/* Logo */
+.company-logo {
+    background-color: black;
+    color: crimson;
+    margin: 5px;
+    padding: 15px;
+}
+
+/* Menu */
+.menu-item {
+    display: flex;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.menu-item li {
+    list-style: none;
+    margin: 5px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menu-item li:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+/* Banner Section */
+.banner-container {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    color: white;
+    /* width: 100%; */
+    /* width: 100vh; */
+}
+
+.banner-left {}
+
+.banner-description {}
+
+.banner-right {}
+
+.banner-image {}
